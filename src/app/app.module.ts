@@ -8,6 +8,7 @@ import { PortfolioPageComponent } from './components/portfolio-page/portfolio-pa
 import { CoursePageComponent } from './components/course-page/course-page.component';
 import { ResumePageComponent } from './components/resume-page/resume-page.component';
 import { AllContentPageComponent } from './components/all-content-page/all-content-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AllContentPageComponent } from './components/all-content-page/all-conte
     PortfolioPageComponent,
     CoursePageComponent,
     ResumePageComponent,
-    AllContentPageComponent
+    AllContentPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
