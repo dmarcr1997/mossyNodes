@@ -1,0 +1,35 @@
+::ng-deep div#landingBg{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background-image: url('https://media-public.canva.com/MADQ47FKu74/1/screen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+::ng-deep div#landHeading{
+    padding-top: 10%;
+    display: inline;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::ng-deep div#landHeading h1{
+    font-size: 5vw;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: cadetblue;
+    margin-bottom: auto;
+}
+
+::ng-deep div#landingSub h4{
+    margin-top: 0%;
+    font-size: 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
