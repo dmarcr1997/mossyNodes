@@ -1,1 +1,25 @@
-<p>navbar works!</p>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark black" [containerInside]="false">
+
+    <mdb-navbar-brand><h1 class="headerText">Mossy Nodes</h1></mdb-navbar-brand>
+
+    <links>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="home"></mdb-icon> <h4 class="navText">Home</h4><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="project-diagram"></mdb-icon> <h4 class="navText">Portfolio</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="graduation-cap"></mdb-icon> <h4 class="navText">Coursework</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="file"></mdb-icon> <h4 class="navText">Resume</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="cloud-meatball"></mdb-icon> <h4 class="navText">All Content</h4></a>
+        </li>
+        
+    </ul>
+    </links>
+</mdb-navbar>

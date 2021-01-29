@@ -1,3 +1,18 @@
+@font-face {
+    font-family: glitchHead;
+    src: url('../assets/nightmare-codehack-font/NightmareCodehack-lrA5.ttf');
+}
+
 ::ng-deep body {
     margin: 0;
 }
+
+::ng-deep .headerText{
+    font-family: glitchHead;
+    color: gray;
+}
+
+::ng-deep .navText{
+    font-family: glitchHead;
+}
+

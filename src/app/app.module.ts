@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MDBBootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
