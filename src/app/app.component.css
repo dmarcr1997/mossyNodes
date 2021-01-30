@@ -5,6 +5,7 @@
 
 ::ng-deep body {
     margin: 0;
+    background-color: black;
 }
 
 ::ng-deep .headerText{
@@ -14,5 +15,6 @@
 
 ::ng-deep .navText{
     font-family: glitchHead;
+    padding: 2%;
 }
 

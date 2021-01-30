@@ -10,6 +10,7 @@ import { CoursePageComponent } from './components/course-page/course-page.compon
 import { ResumePageComponent } from './components/resume-page/resume-page.component';
 import { AllContentPageComponent } from './components/all-content-page/all-content-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     CoursePageComponent,
     ResumePageComponent,
     AllContentPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
