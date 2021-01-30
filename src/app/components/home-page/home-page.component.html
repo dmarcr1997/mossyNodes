@@ -1,9 +1,16 @@
 <div id='homePage'>
     <header class='edge-header'></header>
-    <app-aside></app-aside>
-    <article>
-        <header>
-            
-        </header>
-    </article>
+    <div class='pageContent'>
+        <app-aside></app-aside>
+        <article class='mainContent'>
+            <header>
+                <h2 class="pageTitle">Popular Content</h2>
+            </header>
+            <ul></ul>
+            <header *ngIf='newContent.length > 0'>
+                <h2 class="pageTitle">New Content</h2>
+            </header>
+            <ul></ul>
+        </article>
+    </div>
 </div>
