@@ -9,7 +9,7 @@ export class AsideComponent implements OnInit {
   
   title: string = 'Damon';
   content: string = 'Class notes, Projects, Blog Posts';
-
+  githubLink: string = 'https://github.com/dmarcr1997';
   constructor() {
   }
 
