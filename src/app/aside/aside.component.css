@@ -1,0 +1,16 @@
+div#aside{
+    padding-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+div#aside p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vh;
+    color:white;
+}
+
+div#aside img#skull{
+    width: 15vh;
+    height: 15vh;
+}
