@@ -14,3 +14,8 @@ div#aside img#skull{
     width: 15vh;
     height: 15vh;
 }
+
+div#aside img.asideIcon{
+    width: 2vh;
+    height: 2vh;
+}
