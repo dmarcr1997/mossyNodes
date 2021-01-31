@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input } from '@angular/core';
+import { Project } from '../Project';
 @Component({
   selector: 'app-aside',
   templateUrl: './aside.component.html',
@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AsideComponent implements OnInit {
   
-  title: string = 'Damon';
-  content: string = 'Class notes, Projects, Blog Posts';
+  @Input() title: string = 'Damon';
+  @Input() title2: string;
+  @Input() content: string = 'Class notes, Projects, Blog Posts';
+  @Input() projects: Project[]
+  @Input() page;
   githubLink: string = 'https://github.com/dmarcr1997';
   constructor() {
   }

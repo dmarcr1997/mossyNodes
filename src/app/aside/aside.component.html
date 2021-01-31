@@ -1,6 +1,18 @@
 <div id="aside">
-    <img id='skull' src='../../assets/asideSkullIcon.svg'/>
-    <h4 class='asideHeading'>{{title}}</h4>
-    <p>{{content}}</p>
-    <a href={{githubLink}}><img class='asideIcon' src='../../assets/github.svg'/></a>
+    <div *ngIf="page == 1">
+        <img id='skull' src='../../assets/asideSkullIcon.svg'/>
+        <h4 class='asideHeading'>{{title}}</h4>
+        <p>{{content}}</p>
+        <a href={{githubLink}}><img class='asideIcon' src='../../assets/github.svg'/></a>
+    </div>
+    <div *ngIf="page == 2">
+        <h4 class='asideHeading'>{{title}}</h4>
+        <ul>
+            <li></li>
+        </ul>
+        <h4 class='asideHeading'>{{title2}}</h4>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
 </div>

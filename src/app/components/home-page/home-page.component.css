@@ -1,4 +1,4 @@
-::ng-deep .edge-header{
+::ng-deep #homePageHead{
     background-image: url(../../../assets/mushroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
