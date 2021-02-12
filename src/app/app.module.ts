@@ -9,6 +9,7 @@ import { CoursePageComponent } from './components/course-page/course-page.compon
 import { AllContentPageComponent } from './components/all-content-page/all-content-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AsideComponent } from './aside/aside.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AsideComponent } from './aside/aside.component';
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule
+    MDBBootstrapModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
