@@ -1,0 +1,10 @@
+{
+    "projects":[
+        {"name":"EventCog","repo":"https://github.com/dmarcr1997/EventCog_CLI_Project","demo":"https://youtu.be/tjFPsWBWe5M","img":"media/CLIGIF"},
+        {"name":"Morse Decoder","repo":"https://github.com/dmarcr1997/rust_morse_code_decoder_cli","demo":"https://youtu.be/twHXWNA6P0w","img":"media/RustCLI"},
+        {"name":"Assignment Hog","repo":"https://github.com/dmarcr1997/SinatraProj_AssignmentHog","demo":"https://youtu.be/q3J1jAKRQeo","img":"media/SinatraGif"},
+        {"name":"Galaxy Scout","repo":"https://github.com/dmarcr1997/GalaxyScout","demo":"https://youtu.be/Emud4GU9GgQ","img":"media/RailsGif"},
+        {"name":"SyntheticAi","repo":"https://github.com/dmarcr1997/synthetic-ai","demo":"https://youtu.be/S-0TE-VRugI","img":"media/JavaScriptGif"},
+        {"name":"ADVANCEME","repo":"https://github.com/dmarcr1997/ADVANCEME","demo":"https://youtu.be/sGEeC6Ew_JM","img":"media/AdvanceMeGif2"}
+    ],
+    "coursework":[]}
