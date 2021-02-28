@@ -10,10 +10,13 @@ export class AsideComponent implements OnInit {
   @Input() title: string = 'Damon';
   @Input() title2: string;
   @Input() content: string = 'Class notes, Projects, Blog Posts';
-  @Input() projects: Project[]
+  @Input() projects;
+  @Input() otherWork; 
   @Input() page;
   githubLink: string = 'https://github.com/dmarcr1997';
   constructor() {
+    console.log(this.projects);
+    console.log(this.otherWork);
   }
 
   ngOnInit(): void {

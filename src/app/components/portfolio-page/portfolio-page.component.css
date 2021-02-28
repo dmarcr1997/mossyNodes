@@ -29,3 +29,7 @@
     font-family: neon;
     font-size: 4vh;
 }
+
+::ng-deep p.workParagraph{
+    color: whitesmoke;
+}

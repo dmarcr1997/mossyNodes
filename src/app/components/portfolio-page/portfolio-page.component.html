@@ -1,7 +1,7 @@
 <div id='projectPage'>
     <header id="porfolioPageHead" class='edge-header'></header>
     <div class='pageContent'>
-        <app-aside title='Projects' title2='Other Work' page=2></app-aside>
+        <app-aside title='Projects' title2='Other Work' [projects]="projects" [otherWork]="blogs" page=2></app-aside>
         <article class='mainContent'>
             <header>
                 <h2 class="pageTitle">Projects</h2>
@@ -12,6 +12,17 @@
                     <h4 class="projectHead">{{item.name}}</h4>
                     <a href={{item.repo}} class="projectLink">Repo </a>
                     <a href={{item.demo}} class="projectLink">Demo</a>
+                </li>
+            </ul>
+            <header>
+                <h2 class="pageTitle">Other Work</h2>
+            </header>
+            <ul class="projectDeck">
+                <li class="projectCard" *ngFor="let blog of blogs">
+                    <img class="projectImg" src={{blog.social_image}}/>
+                    <h4 class="projectHead">{{blog.title}}</h4>
+                    <p class="workParagraph">{{blog.description}}</p>
+                    <a href={{blog.canonical_url}} class="projectLink">Read More</a>
                 </li>
             </ul>
         </article>

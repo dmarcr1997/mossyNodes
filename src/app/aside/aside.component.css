@@ -1,20 +1,24 @@
-div#aside{
+div#aside {
     align-items: center;
     justify-content: center;
 }
 
-div#aside p{
+div#aside p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1vh;
     color:white;
 }
 
-div#aside img#skull{
+div#aside img#skull {
     width: 15vh;
     height: 15vh;
 }
 
-div#aside img.asideIcon{
+div#aside img.asideIcon {
     width: 2vh;
     height: 2vh;
+}
+
+::ng-deep li.sideItem {
+    color: whitesmoke;
 }

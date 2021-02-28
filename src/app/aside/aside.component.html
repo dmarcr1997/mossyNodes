@@ -8,11 +8,11 @@
     <div *ngIf="page == 2">
         <h4 class='asideHeading'>{{title}}</h4>
         <ul>
-            <li></li>
+            <li class='sideItem' *ngFor="let proj of projects">{{proj.name}}</li>
         </ul>
         <h4 class='asideHeading'>{{title2}}</h4>
         <ul>
-            <li></li>
+            <li class='sideItem' *ngFor="let work of otherWork">{{work.title}}</li>
         </ul>
     </div>
 </div>
