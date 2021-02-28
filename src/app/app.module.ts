@@ -10,7 +10,7 @@ import { AllContentPageComponent } from './components/all-content-page/all-conte
 import { NavbarComponent } from './navbar/navbar.component';
 import { AsideComponent } from './aside/aside.component';
 import { AppRoutingModule } from './app-routing.module';
-
+import { FormControl, NgForm} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     MDBBootstrapModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
