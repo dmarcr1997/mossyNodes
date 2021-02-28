@@ -1,7 +1,7 @@
 const fs = require('fs');
 const prompt = require('prompt-sync')();
  
-let file = fs.readFile('information.json', 'utf8', (err, data) => {
+let file = fs.readFile('./information.json', 'utf8', (err, data) => {
     if (err){
         console.error(err);
     } else {
@@ -23,8 +23,14 @@ const run = (data) => {
                 const demo = prompt('Enter the project demo: ');
                 const img = prompt('Enter project image location: ');
                 data.projects.push({name, repo, demo, img});
+                break;
             case 'c':
-                console.log('Next Time!!!');
+                const cName = prompt('Enter the name of this assignment: ');
+                const file = prompt('Enter file path: ');
+                const date = prompt('Enter Date of completetion: ');
+                const className = prompt("Enter class name: ");
+                data.coursework.push({cName, className, date, file});
+                break;
             default:
                 console.log('Nope')
         }

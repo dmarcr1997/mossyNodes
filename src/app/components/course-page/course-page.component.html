@@ -1,12 +1,19 @@
 <div id="coursePage"home>
     <header id='coursePageHead' class='edge-header'></header>
     <div class='pageContent'>
-        <app-aside title='Spring 2020' title2='Summer 2020' page=2></app-aside>
+        <app-aside title='Spring 2021' title2='Summer 2021' page=2></app-aside>
         <article class='mainContent'>
             <header>
                 <h2 class="pageTitle">CourseWork</h2>
             </header>
-            <ul></ul>
+            <ul class="courseDeck">
+                <li class="courseItem" *ngFor="let paper of courses">
+                    <h4 class="paperLink">{{paper.cName}}</h4>
+                    <h6 class="paperLink">{{paper.className}}</h6>
+                    <h8 class="paperLink">{{paper.date}} </h8>
+                    <a href={{paper.file}}><mdb-icon fas icon="file"></mdb-icon></a>
+                </li>
+            </ul>
         </article>
     </div>
 </div>

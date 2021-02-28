@@ -3,3 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+::ng-deep .paperLink{
+    color: whitesmoke;
+}
+
+::ng-deep .courseDeck {
+    margin-top: 5%;
+    margin-left: 10%;
+    list-style: none;
+}
+
+::ng-deep .courseItem {
+    margin-bottom: 5%;
+}
