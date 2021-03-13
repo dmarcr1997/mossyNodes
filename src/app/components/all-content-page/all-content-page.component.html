@@ -11,7 +11,7 @@
                     </select>
                 </div>
             </header>
-            <ul> </ul>
+            <app-projects *ngIf="currentOption === 'P' || currentOption === ''"></app-projects>
         </article>
     </div>
 </div>

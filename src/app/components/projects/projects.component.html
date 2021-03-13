@@ -1,0 +1,8 @@
+<ul class="projectDeck">
+    <li class="projectCard" *ngFor="let item of projects">
+        <img class="projectImg" src={{item.gi}}/>
+        <h4 class="projectHead">{{item.name}}</h4>
+        <a href={{item.repo}} class="projectLink">Repo </a>
+        <a href={{item.demo}} class="projectLink">Demo</a>
+    </li>
+</ul>

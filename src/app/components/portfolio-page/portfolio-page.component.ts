@@ -11,7 +11,6 @@ export class PortfolioPageComponent implements OnInit {
   blogs
   constructor(){ 
     this.projects = data.projects
-    console.log(this.projects[0]);
   }
 
   ngOnInit(): void {
