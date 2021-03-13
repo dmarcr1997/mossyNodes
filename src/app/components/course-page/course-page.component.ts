@@ -11,7 +11,6 @@ export class CoursePageComponent implements OnInit {
 
   constructor() {
     this.courses = data.coursework;
-    console.log(this.courses);
   }
 
   ngOnInit(): void {

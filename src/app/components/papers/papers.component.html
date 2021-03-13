@@ -1,0 +1,8 @@
+<ul class="courseDeck">
+    <li class="courseItem" *ngFor="let paper of courses">
+        <h4 class="paperLink">{{paper.cName}}</h4>
+        <h6 class="paperLink">{{paper.className}}</h6>
+        <h8 class="paperLink">{{paper.date}} </h8>
+        <a href={{paper.file}}><mdb-icon fas icon="file"></mdb-icon></a>
+    </li>
+</ul>

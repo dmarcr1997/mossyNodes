@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormControl, NgForm} from '@angular/forms';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { PapersComponent } from './components/papers/papers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { BlogsComponent } from './components/blogs/blogs.component';
     NavbarComponent,
     AsideComponent,
     ProjectsComponent,
-    BlogsComponent
+    BlogsComponent,
+    PapersComponent
   ],
   imports: [
     BrowserModule,
