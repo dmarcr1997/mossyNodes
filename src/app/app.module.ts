@@ -12,6 +12,7 @@ import { AsideComponent } from './aside/aside.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormControl, NgForm} from '@angular/forms';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     AllContentPageComponent,
     NavbarComponent,
     AsideComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,

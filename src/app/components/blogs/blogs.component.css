@@ -1,0 +1,29 @@
+::ng-deep ul.projectDeck{
+    margin-top: 5%;
+    margin-left: 20%;
+    list-style: none;
+}
+
+::ng-deep li.projectCard{
+    margin-bottom: 10%;
+}
+
+::ng-deep img.projectImg{
+    width: 70%;
+    height: 70%;
+}
+
+::ng-deep h4.projectHead{
+    font-family: glitchHead;
+    font-size: 5vh;
+    color: whitesmoke;
+}
+
+::ng-deep a.projectLink{
+    font-family: neon;
+    font-size: 4vh;
+}
+
+::ng-deep p.workParagraph{
+    color: whitesmoke;
+}
