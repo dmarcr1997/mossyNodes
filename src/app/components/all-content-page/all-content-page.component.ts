@@ -7,9 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllContentPageComponent implements OnInit {
   selectOptions = [
-    {value: 'C', label: 'Class'}, 
-    {value: 'D', label: 'Date'}, 
-    {value: 'A', label: 'Alpha'},
     {value: 'P', label: 'Projects'},
     {value: 'S', label: 'School Work'},
     {value: 'B', label: 'Blogs'}

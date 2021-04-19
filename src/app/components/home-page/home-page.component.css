@@ -3,3 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+::ng-deep #paraMid{
+    color: whitesmoke;    
+}
+
+::ng-deep #iconImg{
+    width: 2%;
+    height: 2%;
+}
