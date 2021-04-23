@@ -26,11 +26,11 @@ const run = (data) => {
                 data.projects.push({name, repo, demo, img, views: 0});
                 break;
             case 'c':
-                const cName = prompt('Enter the name of this assignment: ');
+                const name = prompt('Enter the name of this assignment: ');
                 const file = prompt('Enter file path: ');
                 const date = prompt('Enter Date of completetion: ');
                 const className = prompt("Enter class name: ");
-                data.coursework.push({cName, className, date, file, views: 0});
+                data.coursework.push({name, className, date, file, views: 0});
                 break;
             default:
                 console.log('Nope')

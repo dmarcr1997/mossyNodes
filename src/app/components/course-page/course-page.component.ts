@@ -8,12 +8,14 @@ import * as data from 'src/server/information.json';
 export class CoursePageComponent implements OnInit {
 
   courses = []
-
+  headings = []
   constructor() {
-    this.courses = data.coursework;
   }
 
   ngOnInit(): void {
+    this.courses = data.coursework;
+    this.headings = [...new Set(this.courses.map(item => item.date))];
   }
 
 }
+

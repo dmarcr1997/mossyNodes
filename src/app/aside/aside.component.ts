@@ -9,6 +9,8 @@ export class AsideComponent implements OnInit {
   
   @Input() title: string = 'Damon';
   @Input() title2: string;
+  @Input() titles;
+  @Input() items;
   @Input() content: string = 'Class notes, Projects, Blog Posts';
   @Input() projects;
   @Input() otherWork; 

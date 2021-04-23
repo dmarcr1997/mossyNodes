@@ -15,4 +15,12 @@
             <li class='sideItem' *ngFor="let work of otherWork">{{work.title}}</li>
         </ul>
     </div>
+    <div *ngIf="page == 3">
+        <div *ngFor="let sideTitle of titles">
+            <h4 class='asideHeading'>{{sideTitle}}</h4>
+            <ul>
+                <li class='sideItem' *ngFor="let item of items">{{item.name}}</li>
+            </ul>
+        </div>
+    </div>
 </div>
