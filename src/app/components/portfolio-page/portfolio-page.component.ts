@@ -25,7 +25,12 @@ export class PortfolioPageComponent implements OnInit {
   saveBlogs(data) {
     console.log('Done');
     this.blogs = data;
-    console.log(this.blogs);
+  }
+
+  getId(name) {
+    let idName = name.split(' ').join('')
+    console.log(idName)
+    return idName
   }
 
 }

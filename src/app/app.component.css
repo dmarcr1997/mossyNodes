@@ -55,3 +55,14 @@
     display: flex;
     flex-direction: row;
 }
+
+::ng-deep #topButton {
+    margin-left: 90%;
+    position: fixed;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: small;
+    border: none;
+    background-color: #FF4501;
+    z-index: 3;
+}

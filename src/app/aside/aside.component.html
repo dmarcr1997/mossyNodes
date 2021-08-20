@@ -5,14 +5,14 @@
         <p>{{content}}</p>
         <a href={{githubLink}}><img class='asideIcon' src='../../assets/github.svg'/></a>
     </div>
-    <div *ngIf="page == 2">
+    <div id="portfolioContent" *ngIf="page == 2">
         <h4 class='asideHeading'>{{title}}</h4>
         <ul>
-            <li class='sideItem' *ngFor="let proj of projects">{{proj.name}}</li>
+            <li class='sideItem' *ngFor="let proj of projects" (click)="goTo(proj.name)">{{proj.name}}</li>
         </ul>
         <h4 class='asideHeading'>{{title2}}</h4>
         <ul>
-            <li class='sideItem' *ngFor="let work of otherWork">{{work.title}}</li>
+            <li class='sideItem' *ngFor="let work of otherWork" (click)="goTo(work.title)">{{work.title}}</li>
         </ul>
     </div>
     <div *ngIf="page == 3">

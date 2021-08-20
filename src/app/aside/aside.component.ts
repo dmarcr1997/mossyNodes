@@ -21,4 +21,17 @@ export class AsideComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  // getHref = (id) => {
+  //   if(this.page == 2)
+  //     return `/portfolio#${id}`
+  //   else if (this.page == 3)
+  //     return `/all${id}`
+  // }
+  goTo(location){
+    let idName = location.split(' ').join('')
+    console.log(idName)
+    window.location.hash = idName
+  }
+
 }

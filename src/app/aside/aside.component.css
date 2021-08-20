@@ -2,6 +2,7 @@ div#aside {
     align-items: center;
     justify-content: center;
     padding-left: 1rem;
+    position: relative;
 }
 
 div#aside p {
@@ -21,6 +22,12 @@ div#aside img.asideIcon {
     height: 2vh;
 }
 
+
+
 ::ng-deep li.sideItem {
     color: whitesmoke;
+}
+
+::ng-deep #portfolioContent ul {
+    list-style:none;
 }

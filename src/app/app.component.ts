@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'moss';
-}
 
-//setup db
+  goTo(location){
+    let idName = location.split(' ').join('')
+    console.log(idName)
+    window.location.hash = idName
+  }
+}
