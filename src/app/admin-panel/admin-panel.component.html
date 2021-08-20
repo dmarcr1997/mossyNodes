@@ -1,0 +1,12 @@
+<div>
+    <input type="radio" (click)="selectedFormType('P')" name="C"/>
+    <input type="radio" (click)="selectedFormType('C')" name="C"/>
+</div>
+<div *ngIf="selectedForm == 'P'">
+    <input type="text" [(ngModel)]="inputName"/>
+    <button type="button" (click)="newProject()">Submit</button>
+</div>
+
+<div *ngIf="selectedForm == 'C'">
+    <p>Courses!!</p>
+</div>

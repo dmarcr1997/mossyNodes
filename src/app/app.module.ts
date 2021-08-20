@@ -14,6 +14,7 @@ import { FormControl, NgForm} from '@angular/forms';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { PapersComponent } from './components/papers/papers.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { PapersComponent } from './components/papers/papers.component';
     AsideComponent,
     ProjectsComponent,
     BlogsComponent,
-    PapersComponent
+    PapersComponent,
+    AdminPanelComponent
   ],
   imports: [
     BrowserModule,

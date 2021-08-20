@@ -1,14 +1,57 @@
 ::ng-deep #homePageHead{
-    background-image: url(../../../assets/mushroom.jpg);
+    background-image: url(../../../assets/forrestBackground2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 ::ng-deep #paraMid{
-    color: whitesmoke;    
+    color: whitesmoke; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    align-items: center;   
+    padding: 2rem;
+    margin-bottom: 5rem;
 }
 
 ::ng-deep #iconImg{
-    width: 2%;
-    height: 2%;
+    max-width: 25px;
+    max-height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+::ng-deep .skills{
+    list-style: none;
+}
+
+::ng-deep .skills h4{
+    color: #FFFDD3;
+    font-size: small;
+}
+
+::ng-deep .levelContain{
+    background-color: black;
+    border-radius: 2px;
+    width: 100%;
+    height: 1%;
+}
+
+::ng-deep .levelBar{
+    background-color: #00AAFF;
+    height: 1%;
+    width: 100%;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+::ng-deep .card{
+    background-color: black;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+::ng-deep .card:hover{
+    box-shadow: 0rem 0rem 0.75rem 0.1rem #FF4501;
 }

@@ -16,10 +16,7 @@ export class AsideComponent implements OnInit {
   @Input() otherWork; 
   @Input() page;
   githubLink: string = 'https://github.com/dmarcr1997';
-  constructor() {
-    console.log(this.projects);
-    console.log(this.otherWork);
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }

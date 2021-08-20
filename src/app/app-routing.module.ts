@@ -5,13 +5,16 @@ import { CoursePageComponent } from './components/course-page/course-page.compon
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { PortfolioPageComponent } from './components/portfolio-page/portfolio-page.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'home', component: HomePageComponent },
   { path: 'courses', component: CoursePageComponent },
   { path: 'portfolio', component: PortfolioPageComponent },
-  { path: 'all', component: AllContentPageComponent }
+  { path: 'all', component: AllContentPageComponent },
+  { path: 'admin', component:  AdminPanelComponent},
+  
 ]
 
 @NgModule({

@@ -12,12 +12,11 @@
                 <h2 class="pageTitle">Skills</h2>
             </header>
             <div class="container">
-                <ul class="row">
-                    <li class="col-sm-4" *ngFor="let skill of skillsArr">
-                        <h4 id='paraMid'>{{skill.name}}</h4>
-                        <img clas="iconImg" src={{skill.i}}/>
-                    </li>
-                </ul>
+                    <ul class="row card" *ngFor="let skills of skillsArr">
+                        <li class="col-xl skills" *ngFor="let skill of skills">
+                            <h4 class="headerText">{{skill.name}}<div class="levelContain"><div class="levelBar" [style.width.%]="skill.level">{{skill.level}}%</div></div></h4>
+                        </li>
+                    </ul>
             </div>
         </article>
     </div>

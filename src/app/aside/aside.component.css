@@ -1,6 +1,7 @@
 div#aside {
     align-items: center;
     justify-content: center;
+    padding-left: 1rem;
 }
 
 div#aside p {
@@ -12,6 +13,7 @@ div#aside p {
 div#aside img#skull {
     width: 15vh;
     height: 15vh;
+    margin-right: 2rem;
 }
 
 div#aside img.asideIcon {
