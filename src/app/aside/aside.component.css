@@ -1,8 +1,9 @@
 div#aside {
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
+    margin-left: 1rem;
     position: relative;
+    width: 70%;
 }
 
 div#aside p {
@@ -26,8 +27,14 @@ div#aside img.asideIcon {
 
 ::ng-deep li.sideItem {
     color: whitesmoke;
+    font-size: small;
+    word-wrap: break-word;
 }
 
 ::ng-deep #portfolioContent ul {
-    list-style:none;
+    list-style:square;
+}
+
+::ng-deep #courseContent ul {
+    list-style-type: square;
 }

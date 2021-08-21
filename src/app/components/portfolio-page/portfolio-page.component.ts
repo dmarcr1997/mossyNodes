@@ -29,7 +29,6 @@ export class PortfolioPageComponent implements OnInit {
 
   getId(name) {
     let idName = name.split(' ').join('')
-    console.log(idName)
     return idName
   }
 
