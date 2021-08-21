@@ -9,8 +9,12 @@ export class AppComponent {
   title = 'moss';
 
   goTo(location){
-    let idName = location.split(' ').join('')
-    console.log(idName)
-    window.location.hash = idName
+    let idName = location.split(' ').join('');
+    window.location.hash = idName;
+  }
+
+  notOnLandingPage(){
+    console.log("CHANGE")
+    return window.location.pathname !== '/';
   }
 }
