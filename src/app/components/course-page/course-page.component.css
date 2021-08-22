@@ -8,6 +8,10 @@
     color: whitesmoke;
 }
 
+::ng-deep p.paperLink{
+    margin-bottom: 2%;
+}
+
 ::ng-deep .courseDeck {
     margin-top: 5%;
     list-style: none;
@@ -39,7 +43,7 @@
 }
 
 ::ng-deep .card:hover{
-    box-shadow: 0rem 0rem 0.75rem 0.1rem #FF4501;
+    box-shadow: 0rem 0rem 0.75rem 0.1rem #00AAFF;
 }
 
 ::ng-deep .row{

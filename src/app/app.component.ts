@@ -11,10 +11,10 @@ export class AppComponent {
   goTo(location){
     let idName = location.split(' ').join('');
     window.location.hash = idName;
+    window.location.hash = ''
   }
 
   notOnLandingPage(){
-    console.log("CHANGE")
     return window.location.pathname !== '/';
   }
 }

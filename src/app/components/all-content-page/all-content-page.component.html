@@ -2,10 +2,10 @@
     <header id='allContPageHead' class='edge-header'></header>
     <div class='pageContent'>
         <app-aside page=1></app-aside>
-        <article class='mainContent'>
+        <article class='mainContent container'>
             <header>
-                <h2 class="pageTitle">Sort Content By</h2>
-                <div class="md-form">
+                <h2 id="allPageTitle">Sort Content By</h2>
+                <div id="allPageInput" class="md-form">
                     <select placeholder="Choose your option" label="Example label" class="browser-default custom-select" (change)="selectSort($event.target.value)">
                         <option *ngFor="let option of selectOptions" [value]="option.value">{{option.label}}</option>
                     </select>

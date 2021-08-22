@@ -4,3 +4,9 @@
     background-size: cover;
 }
 
+::ng-deep #allPageTitle{
+    font-family: neon;
+    font-size: 10vh;
+    color: mediumturquoise; 
+}
+

@@ -26,4 +26,8 @@
 
 ::ng-deep p.workParagraph{
     color: whitesmoke;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+    word-wrap: normal;
+    width: 70%;
 }
