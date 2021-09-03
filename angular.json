@@ -126,9 +126,16 @@
               "devServerTarget": "moss:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "moss"
+  "defaultProject": "moss",
+  "cli": {
+    "analytics": "9d846eb7-aebd-4fff-bfd3-8a9ecb550fc2"
+  }
 }
