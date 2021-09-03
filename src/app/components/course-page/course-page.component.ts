@@ -17,10 +17,5 @@ export class CoursePageComponent implements OnInit {
     this.headings = [...new Set(this.courses.map(item => item.date))];
   }
 
-  getId(name) {
-    let idName = name.split(' ').join('')
-    return idName
-  }
-
 }
 

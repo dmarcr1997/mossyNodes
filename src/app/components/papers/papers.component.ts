@@ -16,4 +16,9 @@ export class PapersComponent implements OnInit {
     this.courses = data.coursework;
   }
 
+  getId(name) {
+    let idName = name.split(' ').join('')
+    return idName
+  }
+
 }

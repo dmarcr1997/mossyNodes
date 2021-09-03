@@ -16,8 +16,8 @@
         </ul>
     </div>
     <div id="courseContent" *ngIf="page == 3">
-        <div *ngFor="let sideTitle of titles">
-            <h4 class='asideHeading'>{{sideTitle}}</h4>
+        <div>
+            <h4 class='asideHeading'>Index</h4>
             <ul>
                 <li class='sideItem' *ngFor="let item of items" (click)="goTo(item.name)">{{item.name}}</li>
             </ul>

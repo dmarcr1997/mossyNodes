@@ -1,7 +1,7 @@
 <div class="container">
     <ul>
         <li class="row card skills" *ngFor="let paper of courses">
-            <h4 class="headerText">{{paper.name}}</h4>
+            <h4 [id]="getId(paper.name)" class="headerText">{{paper.name}}</h4>
             <p class="paperLink">{{paper.className}}</p>
             <p class="paperLink">{{paper.date}} </p>
             <a href={{paper.file}}><mdb-icon fas icon="file"></mdb-icon></a>
