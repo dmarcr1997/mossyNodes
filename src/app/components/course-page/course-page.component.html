@@ -2,28 +2,11 @@
     <header id='coursePageHead' class='edge-header'></header>
     <div class='pageContent'>
         <app-aside [titles]="headings" [items]="courses" page=3></app-aside>
-        <article class='mainContent'>
+        <article class='mainContent container'>
             <header>
                 <h2 class="pageTitle">CourseWork</h2>
             </header>
-            <!-- <ul class="courseDeck">
-                <li class="courseItem" *ngFor="let paper of courses">
-                    <h6 class="paperLink">{{paper.name}}</h6>
-                    <p class="paperLink">{{paper.className}}</p>
-                    <p class="paperLink">{{paper.date}} </p>
-                    <a href={{paper.file}}><mdb-icon fas icon="file"></mdb-icon></a>
-                </li>
-            </ul> -->
-            <div class="container">
-                <ul>
-                    <li class="row card skills" *ngFor="let paper of courses">
-                        <h4 [id]="getId(paper.name)" class="headerText">{{paper.name}}</h4>
-                        <p class="paperLink">{{paper.className}}</p>
-                        <p class="paperLink">{{paper.date}} </p>
-                        <a href={{paper.file}}><mdb-icon fas icon="file"></mdb-icon></a>
-                    </li>
-                </ul>
-            </div>
+            <app-papers></app-papers>
         </article>
     </div>
 </div>
